@@ -388,17 +388,20 @@ nav{
     .play-video{
         flex-basis: 100%;
     }
+    .play-video video{
+        width: 98%;
+    }
     .right-sidebar{
         flex-basis: 100%;
     }
     .play-container{
-        padding-left: 10%;
+        padding-left: 5%;
     }
     .vid-description{
         margin-left: 0;
     }
     .play-video .play-video-info a{
-        margin-left: 0;
+        margin-left: -80px;
         margin-right: 15px;
         margin-top: 15px;
     }
